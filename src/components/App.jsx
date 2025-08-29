@@ -1,35 +1,27 @@
 import { ThemeButton } from "./ThemeButton";
-import { BookDashed, Settings2 } from "lucide-preact";
-import { Delete } from "./Delete";
-import { ImportExport } from "./ImportExport";
+import { Globe } from "lucide-preact";
 
 export function App() {
-    const handleSettings = () => {
-        const settingsContainer = document.querySelector('.system-actions-container');
-        if (!settingsContainer) {
-            return;
-        }
-
-        if(settingsContainer.style.display === 'block') {
-            settingsContainer.style.display = 'none';
-        } else {
-            settingsContainer.style.display = 'block';
-        }
-    };
 
     return (
         <>
             <header>
-                <h1><BookDashed width={30} height={30} />Site:</h1>
+                <h1><Globe width={30} height={30} />Site</h1>
                 <div id="header-right-container">
                     <ThemeButton />
-                    <Settings2 onClick={handleSettings} />
                 </div>
             </header>
-            <div className="system-actions-container">
-                <ImportExport />
-                <Delete />
-            </div>
+            <main>
+                <h2>Hello!</h2>
+                <p>This is a temporary domain placeholder site.</p>
+                <a href="https://github.com/hhiruko/site-placeholder" target="_blank">Source Code</a>
+                <p>Meanwhile enjoy photos of my cats.</p>
+                <div className="img-container">
+                    <img src="img/misti.PNG" alt="A photo of a very polite white and tabbi cat."/>
+                    <img src="img/smoki.PNG" alt="A funny photo of a sleeping tabbi cat."/>
+                    <img src="img/marta.PNG" alt="A photo of a menacing (but funny) black and white cat."/>
+                </div>
+            </main>
         </>
     );
 }
