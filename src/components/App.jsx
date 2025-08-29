@@ -6,7 +6,7 @@ export function App() {
     return (
         <>
             <header>
-                <h1><Globe width={30} height={30} />Site</h1>
+                <h1><Globe width={30} height={30} /><a href="">adilet.dev</a></h1>
                 <div id="header-right-container">
                     <ThemeButton />
                 </div>
