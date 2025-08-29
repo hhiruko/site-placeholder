@@ -81,7 +81,7 @@
   "/assets/index-B6YWJoDa.js",
   "/"
 ];
-    const CACHE_NAME = 'v2025-08-29T11:06:08.706Z';
+    const CACHE_NAME = 'v2025-08-29T11:28:12.074Z';
 
     self.addEventListener('install', event => {
         self.skipWaiting();
