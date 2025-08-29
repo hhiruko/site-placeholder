@@ -17,6 +17,6 @@ export const ThemeButton = () => {
     };
 
     return (
-        <button id="theme-button" ref={themeButtonRef} onClick={handleThemeButton}><ThemeIcon /></button>
+        <button id="theme-button" ref={themeButtonRef} onClick={handleThemeButton} aria-label="Toggle system/dark/light theme"><ThemeIcon /></button>
     );
 };

@@ -3,6 +3,11 @@
     --danger: #dc3545;
 }
 
+html {
+    scroll-padding-top: 80px;
+    scroll-behavior: smooth;
+}
+
 header {
     margin-bottom: 12px;
     display: flex;
@@ -88,4 +93,32 @@ button:focus {
     .img-container {
         grid-template-columns: 1fr 1fr 1fr;
     }
+}
+
+footer {
+    text-align: center;
+}
+
+.social-links-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+main {
+    margin-bottom: 24px;
+}
+
+nav {
+    display: flex;
+    gap: 24px;
+    background-color: var(--background-body);
+    position: sticky;
+    top: 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+p {
+    text-align: justify;
 }
