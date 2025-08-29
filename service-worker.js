@@ -81,7 +81,7 @@
   "/site-placeholder/assets/index-UlmPuTsi.js",
   "/site-placeholder/"
 ];
-    const CACHE_NAME = 'v2025-08-29T10:54:33.857Z';
+    const CACHE_NAME = 'v2025-08-29T10:59:19.172Z';
 
     self.addEventListener('install', event => {
         self.skipWaiting();
