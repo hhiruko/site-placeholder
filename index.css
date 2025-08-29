@@ -76,3 +76,16 @@ button:focus {
 .img-container img {
     max-width: 250px;
 }
+
+.img-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    justify-items: center;
+}
+
+@media (min-width: 768px) {
+    .img-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
