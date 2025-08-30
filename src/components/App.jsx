@@ -96,6 +96,14 @@ export function App() {
                                 <td>Memcached, Redis</td>
                             </tr>
                             <tr>
+                                <td><strong>Test</strong></td>
+                                <td>Codeception, PHPUnit, Postman</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Log</strong></td>
+                                <td>Grafana Loki</td>
+                            </tr>
+                            <tr>
                                 <td><strong>Server</strong></td>
                                 <td>NGINX, Apache</td>
                             </tr>
