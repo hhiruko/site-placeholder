@@ -96,6 +96,10 @@ export function App() {
                                 <td>Memcached, Redis</td>
                             </tr>
                             <tr>
+                                <td><strong>Search Engine</strong></td>
+                                <td>Elasticsearch</td>
+                            </tr>
+                            <tr>
                                 <td><strong>Test</strong></td>
                                 <td>Codeception, PHPUnit, Postman</td>
                             </tr>
