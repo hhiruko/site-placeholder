@@ -2,12 +2,15 @@
     const assets = [
   "/robots.txt",
   "/index.html",
-  "/img/smoki.webp",
-  "/img/smoki.jpg",
-  "/img/misti.webp",
-  "/img/misti.jpg",
-  "/img/marta.webp",
-  "/img/marta.jpg",
+  "/img/smoki_500.webp",
+  "/img/smoki_375.webp",
+  "/img/smoki_250.webp",
+  "/img/misti_500.webp",
+  "/img/misti_375.webp",
+  "/img/misti_250.webp",
+  "/img/marta_500.webp",
+  "/img/marta_375.webp",
+  "/img/marta_250.webp",
   "/favicons/yandex-browser-manifest.json",
   "/favicons/yandex-browser-50x50.png",
   "/favicons/mstile-70x70.png",
@@ -82,10 +85,10 @@
   "/cdn/water.light.min.css",
   "/cdn/water.dark.min.css",
   "/assets/index-lZoZAiix.css",
-  "/assets/index-DzeecOPm.js",
+  "/assets/index-CqBNdnnO.js",
   "/"
 ];
-    const CACHE_NAME = 'v2025-09-02T11:15:29.913Z';
+    const CACHE_NAME = 'v2025-09-02T11:38:07.667Z';
 
     self.addEventListener('install', event => {
         self.skipWaiting();
