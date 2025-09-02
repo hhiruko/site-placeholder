@@ -44,8 +44,8 @@ export function App() {
                     <p>Meanwhile enjoy photos of my cats.</p>
                     <div className="img-container">
                         <img 
-                            src="/img/misti_250.webp" 
-                            srcset="/img/misti_375.webp 1.5x, /img/misti_500.webp 2x"
+                            src="./img/misti_250.webp" 
+                            srcset="./img/misti_375.webp 1.5x, ./img/misti_500.webp 2x"
                             alt="A photo of a very polite white and tabbi cat." 
                             onClick={() => alert('Misti says "MEOW".')}
                             fetchpriority="high"
@@ -53,8 +53,8 @@ export function App() {
                             height="250"
                         />
                         <img 
-                            src="/img/smoki_250.webp" 
-                            srcset="/img/smoki_375.webp 1.5x, /img/smoki_500.webp 2x"
+                            src="./img/smoki_250.webp" 
+                            srcset="./img/smoki_375.webp 1.5x, ./img/smoki_500.webp 2x"
                             alt="A funny photo of a sleeping tabbi cat." 
                             onClick={() => alert('Smoki is talking in his sleep.')}
                             fetchpriority="high"
@@ -62,8 +62,8 @@ export function App() {
                             height="250"
                         />
                         <img 
-                            src="/img/marta_250.webp" 
-                            srcset="/img/marta_375.webp 1.5x, /img/marta_500.webp 2x"
+                            src="./img/marta_250.webp" 
+                            srcset="./img/marta_375.webp 1.5x, ./img/marta_500.webp 2x"
                             alt="A photo of a menacing (but funny) black and white cat." 
                             onClick={() => 
                             alert('Marta prepares to hit you.')}
@@ -189,7 +189,7 @@ export function App() {
                 </section>
             </main>
             <footer>
-                <p>&copy; 2025 Adilet Toktybay. All rights reserved.</p>
+                <p className="copyright">&copy; 2025 Adilet Toktybay. All rights reserved.</p>
                 <div className="social-links-container">
                     <a href="https://www.linkedin.com/in/atoktybay/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                     <a href="https://github.com/hhiruko" target="_blank" rel="noopener noreferrer">Github</a>
