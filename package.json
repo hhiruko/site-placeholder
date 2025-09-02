@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"No tests yet.\"",
     "dev": "vite",
-    "build": "npm run generate-favicons && vite build && npm run generate-sw && npm run generate-sitemap",
+    "build": "vite build && npm run generate-favicons && npm run generate-sw && npm run generate-sitemap",
     "preview": "vite preview",
     "generate-sw": "node scripts/generate-sw.mjs",
     "generate-favicons": "node scripts/generate-favicons.mjs",

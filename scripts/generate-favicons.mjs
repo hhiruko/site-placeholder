@@ -12,10 +12,10 @@ if(!env.VITE_APP_ICON) {
     process.exit(0);
 }
 
-const src = 'public/favicons/' + env.VITE_APP_ICON;
-const dest = 'public/favicons';
-const index = 'index.html';
-const manifest = 'public/favicons/manifest.webmanifest';
+const src = 'dist/favicons/' + env.VITE_APP_ICON;
+const dest = 'dist/favicons';
+const index = 'dist/index.html';
+const manifest = 'dist/favicons/manifest.webmanifest';
 
 const configuration = {
     path: '/favicons',
