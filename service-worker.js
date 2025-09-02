@@ -85,10 +85,10 @@
   "/cdn/water.light.min.css",
   "/cdn/water.dark.min.css",
   "/assets/index-lZoZAiix.css",
-  "/assets/index-CqBNdnnO.js",
+  "/assets/index-DLeH1M6N.js",
   "/"
 ];
-    const CACHE_NAME = 'v2025-09-02T11:38:07.667Z';
+    const CACHE_NAME = 'v2025-09-02T11:52:23.122Z';
 
     self.addEventListener('install', event => {
         self.skipWaiting();
