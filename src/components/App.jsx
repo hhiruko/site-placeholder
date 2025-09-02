@@ -48,12 +48,18 @@ export function App() {
                             srcset="img/misti_375.webp 1.5x, img/misti_500.webp 2x"
                             alt="A photo of a very polite white and tabbi cat." 
                             onClick={() => alert('Misti says "MEOW".')}
+                            fetchpriority="high"
+                            width="250"
+                            height="250"
                         />
                         <img 
                             src="img/smoki_250.webp" 
                             srcset="img/smoki_375.webp 1.5x, img/smoki_500.webp 2x"
                             alt="A funny photo of a sleeping tabbi cat." 
                             onClick={() => alert('Smoki is talking in his sleep.')}
+                            fetchpriority="high"
+                            width="250"
+                            height="250"
                         />
                         <img 
                             src="img/marta_250.webp" 
@@ -61,6 +67,9 @@ export function App() {
                             alt="A photo of a menacing (but funny) black and white cat." 
                             onClick={() => 
                             alert('Marta prepares to hit you.')}
+                            fetchpriority="high"
+                            width="250"
+                            height="250"
                         />
                     </div>
                 </section>
