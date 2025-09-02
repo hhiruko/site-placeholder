@@ -124,6 +124,14 @@ export function App() {
                                 <td>EC2, S3, DynamoDB, Lambda, Cloud9, IAM</td>
                             </tr>
                             <tr>
+                                <td><strong>Hosting</strong></td>
+                                <td>Github Pages, VPS, Vercel</td>
+                            </tr>
+                            <tr>
+                                <td><strong>DNS & SSL</strong></td>
+                                <td>Cloudflare, Namecheap, Let's Encrypt</td>
+                            </tr>
+                            <tr>
                                 <td><strong>Environment</strong></td>
                                 <td>Linux, Ubuntu, Arch, EndeavourOS</td>
                             </tr>
