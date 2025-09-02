@@ -51,7 +51,7 @@ export function App() {
 
                 <section id="about">
                     <h2>About Me</h2>
-                    <p>I'm a passionate Full-Stack Engineer with over <strong>3 years</strong> of professional experience designing, developing, and scaling production-grade applications. I specialize in <strong>PHP</strong> and <strong>JS</strong>, and I'm also comfortable working with Python, C++, Java and Rust. I enjoy working across the stack from writing backend and frontend code to configuring servers, managing deployments, and optimizing runtime performance.</p>
+                    <p>My name is Adilet Toktybay. I'm a passionate Full-Stack Engineer with over <strong>3 years</strong> of professional experience designing, developing, and scaling production-grade applications. I specialize in <strong>PHP</strong> and <strong>JS</strong>, and I'm also comfortable working with Python, C++, Java and Rust. I enjoy working across the stack from writing backend and frontend code to configuring servers, managing deployments, and optimizing runtime performance.</p>
                     <ul>
                         <li>🌍  I'm based in Astana, Kazakhstan</li>
                         <li>🎓  Master of Technical Sciences in the field of Media Technologies</li>
@@ -94,6 +94,18 @@ export function App() {
                             <tr>
                                 <td><strong>Cache</strong></td>
                                 <td>Memcached, Redis</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Search Engine</strong></td>
+                                <td>Elasticsearch</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Test</strong></td>
+                                <td>Codeception, PHPUnit, Postman</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Log</strong></td>
+                                <td>Grafana Loki</td>
                             </tr>
                             <tr>
                                 <td><strong>Server</strong></td>
