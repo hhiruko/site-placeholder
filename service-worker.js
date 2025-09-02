@@ -1,5 +1,6 @@
 
     const assets = [
+  "/robots.txt",
   "/index.html",
   "/img/smoki.jpg",
   "/img/misti.jpg",
@@ -78,10 +79,10 @@
   "/cdn/water.light.min.css",
   "/cdn/water.dark.min.css",
   "/assets/index-lZoZAiix.css",
-  "/assets/index-D98o_S0H.js",
+  "/assets/index-CLMN9RvV.js",
   "/"
 ];
-    const CACHE_NAME = 'v2025-09-02T09:54:26.097Z';
+    const CACHE_NAME = 'v2025-09-02T10:38:00.076Z';
 
     self.addEventListener('install', event => {
         self.skipWaiting();
