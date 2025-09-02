@@ -39,7 +39,7 @@ export function App() {
             <main role="main">
                 <section id="hello">
                     <h2>Hello!</h2>
-                    <p>This is a temporary domain placeholder site. Full site coming soon.</p>
+                    <p>This site is currently under development. The full version is on its way.</p>
                     <a href="https://github.com/hhiruko/site-placeholder" target="_blank">Source Code</a>
                     <p>Meanwhile enjoy photos of my cats.</p>
                     <div className="img-container">
