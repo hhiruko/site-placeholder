@@ -43,9 +43,25 @@ export function App() {
                     <a href="https://github.com/hhiruko/site-placeholder" target="_blank">Source Code</a>
                     <p>Meanwhile enjoy photos of my cats.</p>
                     <div className="img-container">
-                        <img src="img/misti.webp" alt="A photo of a very polite white and tabbi cat." onClick={() => alert('Misti says "MEOW".')}/>
-                        <img src="img/smoki.webp" alt="A funny photo of a sleeping tabbi cat." onClick={() => alert('Smoki is talking in his sleep.')}/>
-                        <img src="img/marta.webp" alt="A photo of a menacing (but funny) black and white cat." onClick={() => alert('Marta prepares to hit you.')}/>
+                        <img 
+                            src="img/misti_250.webp" 
+                            srcset="img/misti_375.webp 1.5x, img/misti_500.webp 2x"
+                            alt="A photo of a very polite white and tabbi cat." 
+                            onClick={() => alert('Misti says "MEOW".')}
+                        />
+                        <img 
+                            src="img/smoki_250.webp" 
+                            srcset="img/smoki_375.webp 1.5x, img/smoki_500.webp 2x"
+                            alt="A funny photo of a sleeping tabbi cat." 
+                            onClick={() => alert('Smoki is talking in his sleep.')}
+                        />
+                        <img 
+                            src="img/marta_250.webp" 
+                            srcset="img/marta_375.webp 1.5x, img/marta_500.webp 2x"
+                            alt="A photo of a menacing (but funny) black and white cat." 
+                            onClick={() => 
+                            alert('Marta prepares to hit you.')}
+                        />
                     </div>
                 </section>
 
