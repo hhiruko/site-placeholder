@@ -88,7 +88,7 @@
   "/assets/index-DLeH1M6N.js",
   "/"
 ];
-    const CACHE_NAME = 'v2025-09-02T11:52:23.122Z';
+    const CACHE_NAME = 'v2025-09-02T12:02:06.180Z';
 
     self.addEventListener('install', event => {
         self.skipWaiting();
