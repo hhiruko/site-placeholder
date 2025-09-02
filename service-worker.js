@@ -2,8 +2,11 @@
     const assets = [
   "/robots.txt",
   "/index.html",
+  "/img/smoki.webp",
   "/img/smoki.jpg",
+  "/img/misti.webp",
   "/img/misti.jpg",
+  "/img/marta.webp",
   "/img/marta.jpg",
   "/favicons/yandex-browser-manifest.json",
   "/favicons/yandex-browser-50x50.png",
@@ -79,10 +82,10 @@
   "/cdn/water.light.min.css",
   "/cdn/water.dark.min.css",
   "/assets/index-lZoZAiix.css",
-  "/assets/index-CLMN9RvV.js",
+  "/assets/index-BFb1Yarv.js",
   "/"
 ];
-    const CACHE_NAME = 'v2025-09-02T10:38:00.076Z';
+    const CACHE_NAME = 'v2025-09-02T10:59:39.034Z';
 
     self.addEventListener('install', event => {
         self.skipWaiting();
