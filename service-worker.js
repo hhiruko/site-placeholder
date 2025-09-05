@@ -81,14 +81,12 @@
   "/favicons/android-chrome-256x256.png",
   "/favicons/android-chrome-192x192.png",
   "/favicons/android-chrome-144x144.png",
-  "/cdn/water.system.min.css",
-  "/cdn/water.light.min.css",
-  "/cdn/water.dark.min.css",
-  "/assets/index-x3bdaocz.js",
+  "/cdn/water.min.css",
   "/assets/index-C-FitwWP.css",
+  "/assets/index-BTMGjw9l.js",
   "/"
 ];
-    const CACHE_NAME = 'v2025-09-02T13:06:03.423Z';
+    const CACHE_NAME = 'v2025-09-05T07:26:15.299Z';
 
     self.addEventListener('install', event => {
         self.skipWaiting();
