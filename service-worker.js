@@ -86,7 +86,7 @@
   "/assets/index-BTMGjw9l.js",
   "/"
 ];
-    const CACHE_NAME = 'v2025-09-05T07:26:15.299Z';
+    const CACHE_NAME = 'v2025-09-05T07:29:48.655Z';
 
     self.addEventListener('install', event => {
         self.skipWaiting();
